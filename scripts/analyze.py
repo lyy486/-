@@ -1,5 +1,5 @@
 """
-AI 分析模块 — 支持多个 AI 后端，无 API Key 时自动降级为规则分析
+AI 分析模块 — 深度分析项目内容和用户价值
 """
 
 import os
@@ -11,42 +11,46 @@ DOMAIN_RULES = {
         "keywords": ["ai", "llm", "gpt", "machine-learning", "deep-learning", "neural",
                       "transformer", "nlp", "computer-vision", "stable-diffusion", "rag",
                       "embedding", "vector", "agent", "langchain", "llama", "mistral",
-                      "fine-tune", "inference", "tokenizer", "attention", "diffusion"],
-        "value": "可以帮助你构建 AI 应用、训练模型或集成 LLM 能力到你的项目中",
+                      "fine-tune", "inference", "tokenizer", "attention", "diffusion",
+                      "mcp", "context", "reasoning", "chatbot", "copilot"],
+        "value": "AI/LLM 工具或框架，可用于构建智能应用、微调模型或集成 AI 能力",
     },
     "前端开发": {
         "keywords": ["react", "vue", "angular", "svelte", "next", "nuxt", "tailwind",
-                      "css", "component", "ui", "frontend", "web", "browser", "dom",
-                      "typescript", "javascript", "jsx", "wasm"],
-        "value": "可以提升前端开发效率、改善 UI/UX 或学习现代前端架构",
+                      "css", "component", "ui", "frontend", "web", "browser",
+                      "typescript", "javascript", "jsx", "wasm", "html", "canvas"],
+        "value": "前端框架/组件库，可提升 UI 开发效率和用户体验",
     },
     "后端开发": {
         "keywords": ["api", "server", "backend", "database", "sql", "graphql", "rest",
                       "microservice", "queue", "cache", "redis", "postgres", "mysql",
-                      "mongodb", "orm", "migration", "auth", "jwt", "oauth"],
-        "value": "可以优化后端架构、提升 API 性能或简化数据管理",
+                      "mongodb", "orm", "migration", "auth", "jwt", "oauth", "grpc"],
+        "value": "后端框架/中间件，可优化服务架构和数据管理",
     },
     "DevOps/基础设施": {
         "keywords": ["docker", "kubernetes", "k8s", "ci", "cd", "terraform", "ansible",
                       "monitoring", "logging", "prometheus", "grafana", "helm", "aws",
-                      "cloud", "serverless", "infrastructure", "proxy", "gateway"],
-        "value": "可以简化部署流程、提升系统可靠性或降低运维成本",
+                      "cloud", "serverless", "infrastructure", "proxy", "gateway",
+                      "deploy", "pipeline", "orchestration"],
+        "value": "DevOps/基础设施工具，可简化部署运维、提升系统可靠性",
     },
-    "开发工具": {
+    "CLI/开发工具": {
         "keywords": ["cli", "tool", "vscode", "editor", "plugin", "extension", "lint",
                       "format", "debug", "test", "git", "terminal", "shell", "compiler",
-                      "build", "bundler", "vite", "esbuild", "webpack", "package"],
-        "value": "可以提升开发效率、改善代码质量或简化工作流程",
+                      "build", "bundler", "vite", "esbuild", "webpack", "package",
+                      "sdk", "library", "framework", "rust", "golang", "zig"],
+        "value": "开发工具/SDK，可直接提升日常编码效率",
     },
     "安全/隐私": {
         "keywords": ["security", "privacy", "encrypt", "auth", "vulnerability",
-                      "firewall", "ssl", "tls", "crypto", "blockchain"],
-        "value": "可以增强系统安全性、保护用户隐私或学习安全最佳实践",
+                      "firewall", "ssl", "tls", "crypto", "blockchain", "zero-trust"],
+        "value": "安全工具/框架，可增强系统安全防护能力",
     },
     "数据科学": {
         "keywords": ["data", "analytics", "visualization", "pandas", "numpy", "spark",
-                      "etl", "pipeline", "dashboard", "bi", "statistics", "big-data"],
-        "value": "可以提升数据分析能力、优化数据管道或构建更好的数据产品",
+                      "etl", "pipeline", "dashboard", "bi", "statistics", "big-data",
+                      "dataframe", "csv", "parquet", "warehouse"],
+        "value": "数据处理/分析工具，可提升数据工程和 BI 能力",
     },
 }
 
@@ -54,6 +58,7 @@ DOMAIN_RULES = {
 def rule_based_analyze(repo: dict, interests: list[str]) -> str:
     text = " ".join([
         repo.get("description", ""),
+        repo.get("readme_summary", ""),
         repo.get("language", ""),
         " ".join(repo.get("topics", [])),
         repo.get("full_name", ""),
@@ -66,21 +71,26 @@ def rule_based_analyze(repo: dict, interests: list[str]) -> str:
                 matched_domains.append(domain)
                 break
 
-    if not matched_domains:
-        return "这是一个新兴项目，建议关注其后续发展"
+    # 核心价值
+    desc = repo.get("description", "")
+    readme = repo.get("readme_summary", "")
+    what = desc if desc and len(desc) > 15 else (readme[:100] if readme else "暂无详细描述")
 
-    user_interest_hits = [d for d in matched_domains if any(
+    parts = [f"📌 **这是什么：** {what}"]
+
+    if matched_domains:
+        parts.append(f"🏷️ **领域：** {'、'.join(matched_domains[:3])}")
+        parts.append(f"💡 **价值：** {DOMAIN_RULES[matched_domains[0]]['value']}")
+    else:
+        parts.append("💡 **价值：** 新兴项目，关注后续发展")
+
+    user_hits = [d for d in matched_domains if any(
         interest.strip() in d for interest in interests
     )]
+    if user_hits:
+        parts.append(f"🎯 **与你相关：** 匹配你的兴趣「{'、'.join(user_hits)}」，建议深入了解")
 
-    parts = []
-    for domain in matched_domains[:2]:
-        parts.append(DOMAIN_RULES[domain]["value"])
-
-    if user_interest_hits:
-        parts.append(f"与你的兴趣领域「{'、'.join(user_interest_hits)}」高度相关，建议重点关注")
-
-    return "；".join(parts)
+    return "\n".join(parts)
 
 
 def _get_ai_client() -> Optional[str]:
@@ -98,13 +108,18 @@ def _get_ai_client() -> Optional[str]:
 def _format_repos_for_ai(repos: list[dict]) -> str:
     lines = []
     for i, r in enumerate(repos, 1):
+        readme = r.get("readme_summary", "")
+        readme_preview = readme[:200] if readme else "无"
         lines.append(
             f"{i}. **{r['full_name']}**\n"
             f"   描述：{r.get('description', '暂无')}\n"
+            f"   README 摘要：{readme_preview}\n"
             f"   语言：{r.get('language', 'Unknown')} | "
             f"总星标：{r.get('total_stars', 0):,} | "
             f"今日新增：{r.get('stars_today', 0):,}\n"
             f"   Topics：{', '.join(r.get('topics', []))}\n"
+            f"   许可证：{r.get('license', 'N/A')} | "
+            f"创建于：{r.get('created_at', 'N/A')}\n"
             f"   URL：{r['url']}"
         )
     return "\n\n".join(lines)
@@ -187,19 +202,25 @@ def ai_analyze(repos: list[dict], interests: list[str]) -> list[dict]:
     repos_text = _format_repos_for_ai(repos)
     interest_text = "、".join(interests) if interests else "不限领域"
 
-    system_prompt = """你是一个资深技术分析师。对每个项目给出简洁分析（50-80字）：
-1. 核心价值
-2. 对用户的具体帮助
-3. 关注程度（🔥强烈关注 / ⭐值得关注 / 💡了解一下）
-直接返回 JSON 数组：[{"full_name": "owner/repo", "analysis": "分析内容"}, ...]"""
+    system_prompt = """你是资深技术分析师。对每个项目给出分析，每条包含4项（用中文，60-100字）：
+
+1. 📌 这是什么：简洁说清楚项目是做什么的
+2. 🏷️ 领域：所属技术领域
+3. 💡 对用户的价值：它能帮用户解决什么问题、提升什么能力
+4. 🎯 关注程度：🔥强烈关注 / ⭐值得关注 / 💡了解一下
+
+直接返回 JSON：[
+  {"full_name": "owner/repo", "analysis": "📌 ...\n🏷️ ...\n💡 ...\n🎯 ..."},
+  ...
+]"""
 
     user_prompt = f"""用户兴趣领域：{interest_text}
 
-今日 GitHub 星标增长最快项目：
+今日 GitHub 星标增长最快项目（含 README 摘要）：
 
 {repos_text}
 
-请分析每个项目对用户的价值。"""
+请逐一分析。"""
 
     try:
         result = _call_ai(backend, system_prompt, user_prompt)
