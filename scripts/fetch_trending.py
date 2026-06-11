@@ -189,7 +189,7 @@ def _get_repo_info(full_name: str) -> Optional[dict]:
 
 
 def _fetch_readme(full_name: str) -> Optional[str]:
-    """获取 README，清洗 badge/shield/HTML/图片，提取有意义的前 300 字"""
+    """获取 README，清洗后提取有意义的项目介绍"""
     try:
         url = f"{GITHUB_API}/repos/{full_name}/readme"
         resp = SESSION.get(url, timeout=10)
@@ -206,42 +206,56 @@ def _fetch_readme(full_name: str) -> Optional[str]:
         lines = readme_resp.text.split("\n")
         cleaned = []
 
+        # 用于跳过的噪音模式
+        noise_patterns = [
+            r'^!\[', r'^\[!\[', r'^<',           # 图片/HTML
+            r'^[-=*_]{3,}$',                        # 分隔线
+            r'^(Table of Contents|TOC|目录)',       # 目录
+            r'^(License|Licence|MIT|Apache|GPL)',   # 许可证
+            r'^(Contribut|贡献|参与)',              # 贡献指南
+            r'^(Install|安装)',                     # 安装（对理解项目帮助不大）
+            r'^(Build Status|CI|Coverage)',         # CI badge 文字
+            r'^\[!\[Build',                         # badge
+            r'^\[!\[CI', r'^\[!\[Cover',
+            r'shields\.io', r'github\.com.*actions',
+            r'img\.shields', r'badge',
+        ]
+
         for line in lines:
             stripped = line.strip()
-            # 跳过空行、纯分隔线、badge/shield 图片
             if not stripped:
                 continue
-            if re.match(r'^[-=*_]{3,}$', stripped):
+
+            skip = False
+            for pat in noise_patterns:
+                if re.search(pat, stripped, re.IGNORECASE):
+                    skip = True
+                    break
+            if skip:
                 continue
-            if re.match(r'^!\[.*\]\(https?://img\.shields\.io', stripped):
-                continue
-            if re.match(r'^!\[.*\]\(https?://github\.com/[^/]+/[^/]+/actions', stripped):
-                continue
-            if re.match(r'^\[!\[', stripped):
-                continue  # GitHub badge 组合
-            if re.match(r'^<(div|p|img|a|h[1-6]|br|hr|center)', stripped, re.IGNORECASE):
-                continue
+
             # 去图片语法
-            line = re.sub(r'!\[([^\]]*)\]\([^)]+\)', '', line)
+            line = re.sub(r'!\[([^\]]*)\]\([^)]+\)', '', stripped)
             # 去 HTML 标签
             line = re.sub(r'<[^>]+>', '', line)
-            # 去 markdown 链接保留文字
+            # 去链接保留文字
             line = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', line)
-            # 去 markdown 标记符
-            line = re.sub(r'#{1,6}\s+', '', line)
-            line = re.sub(r'[*_~`>|]', '', line)
+            # 去 markdown 标记
+            line = re.sub(r'#{1,6}\s*', '', line)
+            line = re.sub(r'[*_~`>]', '', line)
             line = line.strip()
-            if not line or len(line) < 3:
+
+            if not line or len(line) < 4:
                 continue
-            # 跳过纯数字/符号行
-            if re.match(r'^[\d\s.,;:+\-=/\\|()[\]{}<>*&^%$#@!?]+$', line):
+            # 纯符号跳过
+            if re.match(r'^[\d\s.,;:+\-=/\\|()[\]{}<>*&^%$#@!?·•¨]+$', line):
                 continue
             cleaned.append(line)
 
         result = " ".join(cleaned)
-        # 去多余空白
         result = re.sub(r'\s{2,}', ' ', result).strip()
-        return result[:300] if result else None
+        # 取更多内容（400字），供 synthesize_what 挑选
+        return result[:400] if result else None
     except Exception:
         return None
 

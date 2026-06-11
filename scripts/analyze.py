@@ -58,8 +58,39 @@ DOMAIN_RULES = {
 }
 
 
+def _synthesize_what(repo: dict) -> str:
+    """综合 description + README 摘要 + topics 推断项目是什么"""
+    desc = repo.get("description", "").strip()
+    readme = repo.get("readme_summary", "").strip()
+    topics = repo.get("topics", [])
+    lang = repo.get("language", "")
+
+    # 描述够长且有意义就用它
+    if desc and len(desc) >= 30 and not desc.startswith("http"):
+        return desc
+
+    # 从 README 摘要找第一句有意义的话
+    if readme:
+        sentences = re.split(r'[。.!！?；;\n]', readme)
+        for s in sentences:
+            s = s.strip()
+            if len(s) >= 20 and not s.startswith("http") and not s.startswith("!["):
+                return s[:150]
+
+    # 描述太短但有 readme：拼在一起
+    if desc and readme:
+        combined = f"{desc}。{readme[:100]}"
+        return combined[:150]
+
+    # 只有 topics：根据标签推断
+    if topics:
+        return f"这是一个 {'/'.join(topics[:4])} 相关的 {lang} 项目"
+
+    return f"{lang} 项目（暂无详细描述）" if lang else "暂无详细描述"
+
+
 def rule_based_analyze(repo: dict, interests: list[str]) -> str:
-    # 只用 description + topics + language 做关键词匹配，不加 readme（噪音大）
+    # 领域匹配：只用 description + topics + language
     text = " ".join([
         repo.get("description", ""),
         repo.get("language", ""),
@@ -73,24 +104,27 @@ def rule_based_analyze(repo: dict, interests: list[str]) -> str:
                 matched_domains.append(domain)
                 break
 
-    # 核心价值
-    desc = repo.get("description", "")
-    readme = repo.get("readme_summary", "")
-    what = desc if desc and len(desc) > 15 else (readme[:100] if readme else "暂无详细描述")
-
+    # 综合推断项目是什么
+    what = _synthesize_what(repo)
     parts = [f"📌 **这是什么：** {what}"]
 
     if matched_domains:
         parts.append(f"🏷️ **领域：** {'、'.join(matched_domains[:3])}")
-        parts.append(f"💡 **价值：** {DOMAIN_RULES[matched_domains[0]]['value']}")
+        # 不同领域给不同价值描述
+        value = DOMAIN_RULES[matched_domains[0]]["value"]
+        if len(matched_domains) >= 2:
+            second_value = DOMAIN_RULES[matched_domains[1]]["value"]
+            parts.append(f"💡 **价值：** {value}；{second_value}")
+        else:
+            parts.append(f"💡 **价值：** {value}")
     else:
-        parts.append("💡 **价值：** 新兴项目，关注后续发展")
+        parts.append("💡 **价值：** 新兴项目，建议关注后续发展")
 
     user_hits = [d for d in matched_domains if any(
         interest.strip() in d for interest in interests
     )]
     if user_hits:
-        parts.append(f"🎯 **与你相关：** 匹配你的兴趣「{'、'.join(user_hits)}」，建议深入了解")
+        parts.append(f"🎯 **与你相关：** 匹配你的兴趣领域「{'、'.join(user_hits)}」，建议深入了解")
 
     return "\n".join(parts)
 
