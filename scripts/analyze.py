@@ -3,6 +3,7 @@ AI 分析模块 — 深度分析项目内容和用户价值
 """
 
 import os
+import re
 import json as _json
 from typing import Optional
 
