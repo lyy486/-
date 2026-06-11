@@ -31,8 +31,9 @@ DOMAIN_RULES = {
         "keywords": ["docker", "kubernetes", "k8s", "ci", "cd", "terraform", "ansible",
                       "monitoring", "logging", "prometheus", "grafana", "helm", "aws",
                       "cloud", "serverless", "infrastructure", "proxy", "gateway",
-                      "deploy", "pipeline", "orchestration"],
-        "value": "DevOps/基础设施工具，可简化部署运维、提升系统可靠性",
+                      "deploy", "pipeline", "orchestration", "vpn", "dns", "tunnel",
+                      "censorship", "firewall", "networking"],
+        "value": "DevOps/基础设施/网络工具，可简化部署运维、提升系统可靠性",
     },
     "CLI/开发工具": {
         "keywords": ["cli", "tool", "vscode", "editor", "plugin", "extension", "lint",
@@ -43,8 +44,10 @@ DOMAIN_RULES = {
     },
     "安全/隐私": {
         "keywords": ["security", "privacy", "encrypt", "auth", "vulnerability",
-                      "firewall", "ssl", "tls", "crypto", "blockchain", "zero-trust"],
-        "value": "安全工具/框架，可增强系统安全防护能力",
+                      "firewall", "ssl", "tls", "crypto", "blockchain", "zero-trust",
+                      "osint", "dossier", "investigation", "recon", "pentest",
+                      "forensics", "cybersecurity", "information-gathering"],
+        "value": "安全/调查工具，可增强系统安全或用于信息收集分析",
     },
     "数据科学": {
         "keywords": ["data", "analytics", "visualization", "pandas", "numpy", "spark",
@@ -56,12 +59,11 @@ DOMAIN_RULES = {
 
 
 def rule_based_analyze(repo: dict, interests: list[str]) -> str:
+    # 只用 description + topics + language 做关键词匹配，不加 readme（噪音大）
     text = " ".join([
         repo.get("description", ""),
-        repo.get("readme_summary", ""),
         repo.get("language", ""),
         " ".join(repo.get("topics", [])),
-        repo.get("full_name", ""),
     ]).lower()
 
     matched_domains = []

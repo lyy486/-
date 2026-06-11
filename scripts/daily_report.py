@@ -164,6 +164,9 @@ def main():
     repos = calculate_daily_growth(repos)
     save_star_history(repos)
 
+    # 过滤掉今日星标增长为 0 的项目，只保留真正热门的
+    repos = [r for r in repos if r.get("stars_today", 0) > 0][:10]
+
     interests = [s.strip() for s in os.getenv("MY_INTERESTS", "").split(",") if s.strip()]
     print(f"🧠 AI 分析中（兴趣：{interests or '不限'}）...")
     repos = ai_analyze(repos, interests)
