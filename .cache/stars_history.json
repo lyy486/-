@@ -1,12 +1,17 @@
 {
-  "addyosmani/agent-skills": 52912,
-  "phuryn/pm-skills": 15592,
-  "refactoringhq/tolaria": 15130,
-  "mvanhorn/last30days-skill": 39365,
-  "soxoj/maigret": 32240,
-  "x1xhlol/system-prompts-and-models-of-ai-tools": 139658,
-  "obra/superpowers": 224059,
-  "masterking32/MasterDnsVPN": 5396,
-  "harry0703/MoneyPrinterTurbo": 85486,
-  "maziyarpanahi/openmed": 2443
+  "addyosmani/agent-skills": 53142,
+  "phuryn/pm-skills": 15711,
+  "obra/superpowers": 224164,
+  "harry0703/MoneyPrinterTurbo": 85556,
+  "mvanhorn/last30days-skill": 39430,
+  "soxoj/maigret": 32277,
+  "x1xhlol/system-prompts-and-models-of-ai-tools": 139683,
+  "masterking32/MasterDnsVPN": 5420,
+  "refactoringhq/tolaria": 15152,
+  "maziyarpanahi/openmed": 2461,
+  "luongnv89/claude-howto": 36756,
+  "activeloopai/hivemind": 996,
+  "ruvnet/RuView": 73065,
+  "roboflow/supervision": 43747,
+  "google/skills": 13474
 }
