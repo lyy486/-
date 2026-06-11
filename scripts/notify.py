@@ -3,6 +3,7 @@
 """
 
 import os
+import time
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -114,10 +115,17 @@ def _send_feishu(markdown: str):
         },
     }
 
-    resp = requests.post(webhook, json=payload, timeout=15)
-    resp.raise_for_status()
-    result = resp.json()
-    if result.get("code") != 0:
+    for attempt in range(3):
+        resp = requests.post(webhook, json=payload, timeout=15)
+        resp.raise_for_status()
+        result = resp.json()
+        code = result.get("code", 0)
+        if code == 0:
+            return
+        # 限流错误：等几秒重试
+        if code in (11232, 11246) and attempt < 2:
+            time.sleep(3 * (attempt + 1))
+            continue
         raise RuntimeError(f"Feishu error: {result}")
 
 
