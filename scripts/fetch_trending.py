@@ -202,10 +202,15 @@ def _fetch_readme(full_name: str) -> Optional[str]:
         readme_resp = SESSION.get(download_url, timeout=10)
         if readme_resp.status_code == 200:
             text = readme_resp.text[:1000]
+            # 去图片语法（必须先做）
+            text = re.sub(r'!\[([^\]]*)\]\([^)]+\)', '', text)
+            # 去 HTML 标签
+            text = re.sub(r'<[^>]+>', '', text)
             # 去 markdown 标记
             text = re.sub(r'#{1,6}\s+', '', text)
             text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
             text = re.sub(r'[*_~`>|]', '', text)
+            text = re.sub(r'!\[[^\]]*\]', '', text)
             text = re.sub(r'\n{2,}', '\n', text).strip()
             return text[:500]
     except Exception:
