@@ -1,12 +1,12 @@
 {
-  "addyosmani/agent-skills": 53323,
-  "phuryn/pm-skills": 15802,
-  "harry0703/MoneyPrinterTurbo": 85640,
-  "mvanhorn/last30days-skill": 39469,
-  "obra/superpowers": 224252,
-  "soxoj/maigret": 32311,
-  "refactoringhq/tolaria": 15187,
-  "masterking32/MasterDnsVPN": 5444,
-  "x1xhlol/system-prompts-and-models-of-ai-tools": 139703,
-  "maziyarpanahi/openmed": 2481
+  "addyosmani/agent-skills": 55260,
+  "obra/superpowers": 225106,
+  "phuryn/pm-skills": 16413,
+  "soxoj/maigret": 32731,
+  "maziyarpanahi/openmed": 2871,
+  "refactoringhq/tolaria": 15484,
+  "x1xhlol/system-prompts-and-models-of-ai-tools": 139952,
+  "apple/container": 33218,
+  "NVIDIA/SkillSpector": 2846,
+  "restic/restic": 34232
 }
