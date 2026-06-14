@@ -1,12 +1,12 @@
 {
-  "apple/container": 35331,
-  "addyosmani/agent-skills": 57059,
-  "obra/superpowers": 226177,
-  "phuryn/pm-skills": 17128,
-  "refactoringhq/tolaria": 15878,
-  "maziyarpanahi/openmed": 3242,
-  "music-assistant/server": 1825,
-  "mattermost/mattermost": 37671,
-  "iptv-org/iptv": 118118,
-  "LMCache/LMCache": 8670
+  "addyosmani/agent-skills": 58639,
+  "iptv-org/iptv": 119362,
+  "apple/container": 36450,
+  "obra/superpowers": 227107,
+  "LMCache/LMCache": 8945,
+  "music-assistant/server": 2036,
+  "chatwoot/chatwoot": 30927,
+  "kenn-io/agentsview": 2428,
+  "microsoft/PowerToys": 134728,
+  "andrewyng/aisuite": 14173
 }
