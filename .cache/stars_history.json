@@ -1,12 +1,12 @@
 {
-  "addyosmani/agent-skills": 58639,
-  "iptv-org/iptv": 119362,
-  "apple/container": 36450,
-  "obra/superpowers": 227107,
-  "LMCache/LMCache": 8945,
-  "music-assistant/server": 2036,
-  "chatwoot/chatwoot": 30927,
-  "kenn-io/agentsview": 2428,
-  "microsoft/PowerToys": 134728,
-  "andrewyng/aisuite": 14173
+  "iptv-org/iptv": 121582,
+  "chatwoot/chatwoot": 31345,
+  "freeCodeCamp/freeCodeCamp": 447399,
+  "pytest-dev/pytest": 14088,
+  "swc-project/swc": 33822,
+  "NVIDIA/SkillSpector": 5598,
+  "meshery/meshery": 10459,
+  "cypress-io/cypress": 50025,
+  "GorvGoyl/Clone-Wars": 35641,
+  "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots": 2844
 }
