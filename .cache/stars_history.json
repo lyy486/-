@@ -1,12 +1,12 @@
 {
-  "iptv-org/iptv": 121582,
-  "chatwoot/chatwoot": 31345,
-  "freeCodeCamp/freeCodeCamp": 447399,
-  "pytest-dev/pytest": 14088,
-  "swc-project/swc": 33822,
-  "NVIDIA/SkillSpector": 5598,
-  "meshery/meshery": 10459,
-  "cypress-io/cypress": 50025,
-  "GorvGoyl/Clone-Wars": 35641,
-  "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots": 2844
+  "iptv-org/iptv": 123206,
+  "freeCodeCamp/freeCodeCamp": 448048,
+  "chatwoot/chatwoot": 31796,
+  "meshery/meshery": 10690,
+  "teslamate-org/teslamate": 8295,
+  "Panniantong/Agent-Reach": 30813,
+  "krahets/hello-algo": 127113,
+  "trycua/cua": 18243,
+  "jwasham/coding-interview-university": 352451,
+  "rohitg00/ai-engineering-from-scratch": 33305
 }
