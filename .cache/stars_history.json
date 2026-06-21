@@ -1,12 +1,12 @@
 {
-  "DeusData/codebase-memory-mcp": 8433,
-  "google-research/timesfm": 24142,
-  "zai-org/GLM-5": 4640,
-  "withastro/flue": 5880,
-  "palmier-io/palmier-pro": 2044,
-  "koala73/worldmonitor": 57378,
-  "aishwaryanr/awesome-generative-ai-guide": 27690,
-  "BuilderIO/agent-native": 1108,
-  "chopratejas/headroom": 39212,
-  "calesthio/OpenMontage": 6397
+  "chopratejas/headroom": 42261,
+  "palmier-io/palmier-pro": 3681,
+  "DeusData/codebase-memory-mcp": 9543,
+  "calesthio/OpenMontage": 7230,
+  "google-research/timesfm": 24622,
+  "penpot/penpot": 51629,
+  "tursodatabase/turso": 20418,
+  "twentyhq/twenty": 50916,
+  "Kong/insomnia": 39390,
+  "jamiepine/voicebox": 31098
 }
