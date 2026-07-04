@@ -1,12 +1,12 @@
 {
-  "usestrix/strix": 32612,
-  "msitarzewski/agency-agents": 125728,
-  "hasaneyldrm/exercises-dataset": 9390,
-  "JuliusBrussee/caveman": 81386,
-  "santifer/career-ops": 58007,
-  "obra/superpowers": 244654,
-  "ChromeDevTools/chrome-devtools-mcp": 45159,
-  "browser-use/video-use": 13921,
-  "actions/checkout": 8187,
-  "affaan-m/ECC": 225290
+  "usestrix/strix": 34839,
+  "JuliusBrussee/caveman": 83076,
+  "ChromeDevTools/chrome-devtools-mcp": 45531,
+  "actions/checkout": 8277,
+  "openai/codex-plugin-cc": 23338,
+  "elastic/elasticsearch": 77366,
+  "ansible/ansible": 69236,
+  "facebook/astryx": 4781,
+  "rommapp/romm": 9862,
+  "harvard-edge/cs249r_book": 26247
 }
