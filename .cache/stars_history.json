@@ -1,12 +1,12 @@
 {
-  "usestrix/strix": 34839,
-  "JuliusBrussee/caveman": 83076,
-  "ChromeDevTools/chrome-devtools-mcp": 45531,
-  "actions/checkout": 8277,
-  "openai/codex-plugin-cc": 23338,
-  "elastic/elasticsearch": 77366,
-  "ansible/ansible": 69236,
-  "facebook/astryx": 4781,
-  "rommapp/romm": 9862,
-  "harvard-edge/cs249r_book": 26247
+  "usestrix/strix": 36243,
+  "openai/codex-plugin-cc": 24703,
+  "JuliusBrussee/caveman": 84115,
+  "rommapp/romm": 10263,
+  "harvard-edge/cs249r_book": 26619,
+  "ChromeDevTools/chrome-devtools-mcp": 45825,
+  "alibaba/page-agent": 23240,
+  "Zackriya-Solutions/meetily": 15448,
+  "asgeirtj/system_prompts_leaks": 49063,
+  "ogulcancelik/herdr": 11540
 }
