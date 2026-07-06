@@ -1,12 +1,12 @@
 {
-  "usestrix/strix": 36243,
-  "openai/codex-plugin-cc": 24703,
-  "JuliusBrussee/caveman": 84115,
-  "rommapp/romm": 10263,
-  "harvard-edge/cs249r_book": 26619,
-  "ChromeDevTools/chrome-devtools-mcp": 45825,
-  "alibaba/page-agent": 23240,
-  "Zackriya-Solutions/meetily": 15448,
-  "asgeirtj/system_prompts_leaks": 49063,
-  "ogulcancelik/herdr": 11540
+  "Zackriya-Solutions/meetily": 17491,
+  "asgeirtj/system_prompts_leaks": 50249,
+  "usestrix/strix": 37346,
+  "openai/codex-plugin-cc": 25683,
+  "alibaba/page-agent": 24100,
+  "ogulcancelik/herdr": 12225,
+  "rommapp/romm": 10628,
+  "harvard-edge/cs249r_book": 26932,
+  "Leonxlnx/taste-skill": 57807,
+  "alirezarezvani/claude-skills": 20712
 }
