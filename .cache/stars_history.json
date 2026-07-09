@@ -1,12 +1,12 @@
 {
-  "asgeirtj/system_prompts_leaks": 53201,
-  "Zackriya-Solutions/meetily": 20940,
-  "addyosmani/agent-skills": 72333,
-  "ruvnet/RuView": 78598,
-  "MadsLorentzen/ai-job-search": 11597,
-  "TencentCloud/CubeSandbox": 8541,
-  "AhmadIbrahiim/Website-downloader": 4155,
-  "steipete/CodexBar": 17079,
-  "dotnet/skills": 4344,
-  "iOfficeAI/OfficeCLI": 10303
+  "addyosmani/agent-skills": 74541,
+  "iOfficeAI/OfficeCLI": 12235,
+  "asgeirtj/system_prompts_leaks": 54397,
+  "ruvnet/RuView": 79253,
+  "TencentCloud/TencentDB-Agent-Memory": 7772,
+  "prisma/prisma": 46629,
+  "mvanhorn/last30days-skill": 50889,
+  "argoproj/argo-cd": 23462,
+  "obra/superpowers": 250050,
+  "alibaba/zvec": 14487
 }
