@@ -1,12 +1,12 @@
 {
-  "addyosmani/agent-skills": 76083,
-  "iOfficeAI/OfficeCLI": 13687,
-  "MadsLorentzen/ai-job-search": 19512,
-  "SmartlyDressedGames/U3-SDK": 2118,
-  "VoltAgent/awesome-design-md": 99973,
-  "wonderwhy-er/DesktopCommanderMCP": 6606,
-  "anthropics/claude-cookbooks": 47243,
-  "vxcontrol/pentagi": 19536,
-  "unclecode/crawl4ai": 71938,
-  "imthenachoman/How-To-Secure-A-Linux-Server": 29169
+  "addyosmani/agent-skills": 76906,
+  "wonderwhy-er/DesktopCommanderMCP": 7388,
+  "oven-sh/bun": 94301,
+  "abseil/abseil-cpp": 17539,
+  "jbeder/yaml-cpp": 6091,
+  "mattpocock/skills": 164789,
+  "obra/superpowers": 251875,
+  "microsoft/TypeScript": 109800,
+  "catchorg/Catch2": 20624,
+  "chriskohlhoff/asio": 6080
 }
