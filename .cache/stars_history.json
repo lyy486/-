@@ -1,12 +1,12 @@
 {
-  "addyosmani/agent-skills": 76906,
-  "wonderwhy-er/DesktopCommanderMCP": 7388,
-  "oven-sh/bun": 94301,
-  "abseil/abseil-cpp": 17539,
-  "jbeder/yaml-cpp": 6091,
-  "mattpocock/skills": 164789,
-  "obra/superpowers": 251875,
-  "microsoft/TypeScript": 109800,
-  "catchorg/Catch2": 20624,
-  "chriskohlhoff/asio": 6080
+  "catchorg/Catch2": 21107,
+  "wonderwhy-er/DesktopCommanderMCP": 7806,
+  "abseil/abseil-cpp": 17833,
+  "oven-sh/bun": 94581,
+  "chriskohlhoff/asio": 6145,
+  "davila7/claude-code-templates": 29057,
+  "google-labs-code/stitch-skills": 7115,
+  "hashicorp/terraform": 49389,
+  "zeux/meshoptimizer": 8152,
+  "openai/plugins": 4443
 }
