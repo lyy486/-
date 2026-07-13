@@ -1,12 +1,12 @@
 {
-  "catchorg/Catch2": 21107,
-  "wonderwhy-er/DesktopCommanderMCP": 7806,
-  "abseil/abseil-cpp": 17833,
-  "oven-sh/bun": 94581,
-  "chriskohlhoff/asio": 6145,
-  "davila7/claude-code-templates": 29057,
-  "google-labs-code/stitch-skills": 7115,
-  "hashicorp/terraform": 49389,
-  "zeux/meshoptimizer": 8152,
-  "openai/plugins": 4443
+  "wonderwhy-er/DesktopCommanderMCP": 8035,
+  "Dicklesworthstone/destructive_command_guard": 3118,
+  "HKUDS/Vibe-Trading": 20756,
+  "PrefectHQ/prefect": 23212,
+  "Shubhamsaboo/awesome-llm-apps": 118764,
+  "anthropics/claude-cookbooks": 48532,
+  "home-assistant/core": 89152,
+  "Crosstalk-Solutions/project-nomad": 33879,
+  "ColeMurray/background-agents": 2307,
+  "k1tbyte/Wand-Enhancer": 7022
 }
