@@ -1,12 +1,12 @@
 {
-  "Nutlope/hallmark": 11109,
-  "OpenCut-app/OpenCut": 74164,
-  "Shubhamsaboo/awesome-llm-apps": 123041,
-  "openinterpreter/openinterpreter": 66041,
-  "apache/ossie": 965,
-  "PostHog/posthog": 35902,
-  "PrismML-Eng/Bonsai-demo": 1560,
-  "hasaneyldrm/exercises-dataset": 15130,
-  "lobehub/lobehub": 80239,
-  "YimMenu/YimMenuV2": 1516
+  "Nutlope/hallmark": 12155,
+  "PostHog/posthog": 36241,
+  "PrismML-Eng/Bonsai-demo": 1728,
+  "codecrafters-io/build-your-own-x": 527509,
+  "HenryNdubuaku/maths-cs-ai-compendium": 6680,
+  "github/copilot-sdk": 9813,
+  "anthropics/cwc-workshops": 1613,
+  "protocolbuffers/protobuf": 71549,
+  "tirth8205/code-review-graph": 19805,
+  "docusealco/docuseal": 17888
 }
