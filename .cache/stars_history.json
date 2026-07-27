@@ -1,12 +1,12 @@
 {
-  "block/buzz": 12126,
-  "citrolabs/ego-lite": 3704,
-  "ComposioHQ/awesome-claude-skills": 70655,
-  "Automattic/harper": 13466,
-  "Pumpkin-MC/Pumpkin": 9742,
-  "shiyu-coder/Kronos": 33844,
-  "alibaba/open-code-review": 13077,
-  "anthropics/claude-cookbooks": 49938,
-  "obra/superpowers": 261167,
-  "permissionlesstech/bitchat": 28815
+  "permissionlesstech/bitchat": 30689,
+  "block/buzz": 13548,
+  "citrolabs/ego-lite": 4835,
+  "shiyu-coder/Kronos": 34236,
+  "pingdotgg/t3code": 15107,
+  "CoreBunch/Instatic": 5789,
+  "yorukot/superfile": 20347,
+  "nodejs/node": 118507,
+  "OtterMind/Chat2DB": 27224,
+  "pbakaus/impeccable": 50821
 }
