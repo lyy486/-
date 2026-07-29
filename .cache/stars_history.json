@@ -1,12 +1,12 @@
 {
-  "permissionlesstech/bitchat": 32448,
-  "pbakaus/impeccable": 51688,
-  "yorukot/superfile": 20990,
-  "shiyu-coder/Kronos": 34621,
-  "amnezia-vpn/amnezia-client": 13927,
-  "moeru-ai/airi": 44178,
-  "opengeos/GeoLibre": 2818,
-  "NanmiCoder/MediaCrawler": 58419,
-  "alibaba/open-code-review": 15012,
-  "jenkinsci/jenkins": 25912
+  "moeru-ai/airi": 44886,
+  "opengeos/GeoLibre": 3491,
+  "jenkinsci/jenkins": 26108,
+  "pascalorg/editor": 18877,
+  "andrewyng/aisuite": 15725,
+  "affaan-m/ECC": 234951,
+  "hello245m/free-stockdb": 1425,
+  "huggingface/speech-to-speech": 7360,
+  "virgiliojr94/book-to-skill": 11628,
+  "paperswithbacktest/awesome-systematic-trading": 9774
 }
