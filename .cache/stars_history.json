@@ -1,12 +1,12 @@
 {
-  "affaan-m/ECC": 235681,
-  "opengeos/GeoLibre": 4148,
-  "huggingface/speech-to-speech": 7974,
-  "moeru-ai/airi": 45482,
-  "1jehuang/jcode": 13562,
-  "grokability/snipe-it": 14500,
-  "deepfakes/faceswap": 56404,
-  "microsoft/VibeVoice": 51393,
-  "different-ai/openwork": 18059,
-  "obra/superpowers": 263395
+  "huggingface/speech-to-speech": 9116,
+  "different-ai/openwork": 18865,
+  "microsoft/AI-For-Beginners": 54268,
+  "paperswithbacktest/awesome-systematic-trading": 11179,
+  "WhiskeySockets/Baileys": 10467,
+  "pascalorg/editor": 20194,
+  "mvanhorn/last30days-skill": 55645,
+  "dotnet/aspnetcore": 38306,
+  "microsoft/PowerToys": 137192,
+  "ansible/ansible": 69927
 }
