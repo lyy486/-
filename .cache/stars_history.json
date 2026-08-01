@@ -1,12 +1,12 @@
 {
-  "huggingface/speech-to-speech": 9116,
-  "different-ai/openwork": 18865,
-  "microsoft/AI-For-Beginners": 54268,
-  "paperswithbacktest/awesome-systematic-trading": 11179,
-  "WhiskeySockets/Baileys": 10467,
-  "pascalorg/editor": 20194,
-  "mvanhorn/last30days-skill": 55645,
-  "dotnet/aspnetcore": 38306,
-  "microsoft/PowerToys": 137192,
-  "ansible/ansible": 69927
+  "microsoft/AI-For-Beginners": 55439,
+  "different-ai/openwork": 19589,
+  "mvanhorn/last30days-skill": 56304,
+  "paperswithbacktest/awesome-systematic-trading": 11832,
+  "zhaoxuya520/reverse-skill": 10903,
+  "github/copilot-sdk": 10151,
+  "chatwoot/chatwoot": 35175,
+  "agavra/tuicr": 2179,
+  "usekaneo/kaneo": 5174,
+  "geo-tp/ESP32-Bit-Pirate": 5068
 }
