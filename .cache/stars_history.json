@@ -1,12 +1,12 @@
 {
-  "zhaoxuya520/reverse-skill": 16168,
-  "lyogavin/airllm": 27357,
-  "microsoft/AI-For-Beginners": 60973,
-  "TencentCloud/TencentDB-Agent-Memory": 12326,
-  "microsoft/generative-ai-for-beginners": 115713,
-  "firecrawl/pdf-inspector": 8579,
-  "esengine/DeepSeek-Reasonix": 30109,
-  "donnemartin/system-design-primer": 360635,
-  "antirez/ds4": 20411,
-  "shiyu-coder/Kronos": 35860
+  "zhaoxuya520/reverse-skill": 18152,
+  "firecrawl/pdf-inspector": 10253,
+  "TencentCloud/TencentDB-Agent-Memory": 13943,
+  "lyogavin/airllm": 28505,
+  "microsoft/generative-ai-for-beginners": 116357,
+  "uber/ADR": 733,
+  "obra/superpowers": 266617,
+  "cypress-io/cypress": 50822,
+  "webpack/webpack": 65950,
+  "gabime/spdlog": 29393
 }
