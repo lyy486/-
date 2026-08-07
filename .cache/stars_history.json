@@ -1,12 +1,12 @@
 {
-  "firecrawl/pdf-inspector": 11610,
-  "TencentCloud/TencentDB-Agent-Memory": 15233,
-  "obra/superpowers": 267427,
-  "cloudflare/computer": 3379,
-  "huangruiteng/loopx": 2305,
-  "donnemartin/system-design-primer": 361658,
-  "esengine/DeepSeek-Reasonix": 31772,
-  "addyosmani/agent-skills": 82064,
-  "roboflow/supervision": 48985,
-  "vercel/next.js": 141577
+  "cloudflare/computer": 4923,
+  "TencentCloud/TencentDB-Agent-Memory": 16597,
+  "addyosmani/agent-skills": 83060,
+  "huangruiteng/loopx": 2971,
+  "mattpocock/skills": 207346,
+  "goauthentik/authentik": 23187,
+  "google/guava": 51654,
+  "TapXWorld/ChinaTextbook": 77240,
+  "Significant-Gravitas/AutoGPT": 186076,
+  "tirth8205/code-review-graph": 29099
 }
