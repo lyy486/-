@@ -1,12 +1,12 @@
 {
-  "cloudflare/computer": 4923,
-  "TencentCloud/TencentDB-Agent-Memory": 16597,
-  "addyosmani/agent-skills": 83060,
-  "huangruiteng/loopx": 2971,
-  "mattpocock/skills": 207346,
-  "goauthentik/authentik": 23187,
-  "google/guava": 51654,
-  "TapXWorld/ChinaTextbook": 77240,
-  "Significant-Gravitas/AutoGPT": 186076,
-  "tirth8205/code-review-graph": 29099
+  "mattpocock/skills": 208926,
+  "addyosmani/agent-skills": 83950,
+  "cloudflare/computer": 5812,
+  "goauthentik/authentik": 23639,
+  "PrimeIntellect-ai/prime-agent": 6714,
+  "obra/superpowers": 268788,
+  "semantica-agi/semantica": 2375,
+  "666ghj/MiroFish": 70537,
+  "chenyme/grok2api": 7149,
+  "jdx/mise": 32087
 }
