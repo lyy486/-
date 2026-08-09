@@ -1,12 +1,12 @@
 {
-  "mattpocock/skills": 208926,
-  "addyosmani/agent-skills": 83950,
-  "cloudflare/computer": 5812,
-  "goauthentik/authentik": 23639,
-  "PrimeIntellect-ai/prime-agent": 6714,
-  "obra/superpowers": 268788,
-  "semantica-agi/semantica": 2375,
-  "666ghj/MiroFish": 70537,
-  "chenyme/grok2api": 7149,
-  "jdx/mise": 32087
+  "PrimeIntellect-ai/prime-agent": 9112,
+  "mattpocock/skills": 210123,
+  "addyosmani/agent-skills": 84623,
+  "goauthentik/authentik": 23999,
+  "TapXWorld/ChinaTextbook": 77977,
+  "google/skills": 16782,
+  "TauricResearch/TradingAgents": 96536,
+  "google/guava": 51862,
+  "LadybirdBrowser/ladybird": 65019,
+  "denoland/celld": 2617
 }
