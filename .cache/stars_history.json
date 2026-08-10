@@ -1,12 +1,12 @@
 {
-  "PrimeIntellect-ai/prime-agent": 9112,
-  "mattpocock/skills": 210123,
-  "addyosmani/agent-skills": 84623,
-  "goauthentik/authentik": 23999,
-  "TapXWorld/ChinaTextbook": 77977,
-  "google/skills": 16782,
-  "TauricResearch/TradingAgents": 96536,
-  "google/guava": 51862,
-  "LadybirdBrowser/ladybird": 65019,
-  "denoland/celld": 2617
+  "PrimeIntellect-ai/prime-agent": 11436,
+  "addyosmani/agent-skills": 85224,
+  "google/skills": 17295,
+  "goauthentik/authentik": 24323,
+  "vitali87/code-graph-rag": 3096,
+  "msitarzewski/agency-agents": 140901,
+  "pranshuparmar/witr": 20771,
+  "google-deepmind/weathernext": 7119,
+  "ZhuLinsen/daily_stock_analysis": 61313,
+  "Comfy-Org/ComfyUI": 125630
 }
