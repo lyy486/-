@@ -1,12 +1,12 @@
 {
-  "PrimeIntellect-ai/prime-agent": 11436,
-  "addyosmani/agent-skills": 85224,
-  "google/skills": 17295,
-  "goauthentik/authentik": 24323,
-  "vitali87/code-graph-rag": 3096,
-  "msitarzewski/agency-agents": 140901,
-  "pranshuparmar/witr": 20771,
-  "google-deepmind/weathernext": 7119,
-  "ZhuLinsen/daily_stock_analysis": 61313,
-  "Comfy-Org/ComfyUI": 125630
+  "PrimeIntellect-ai/prime-agent": 13198,
+  "msitarzewski/agency-agents": 141904,
+  "addyosmani/agent-skills": 85807,
+  "semantica-agi/semantica": 4224,
+  "NanmiCoder/MediaCrawler": 61180,
+  "paperclipai/paperclip": 76585,
+  "LadybirdBrowser/ladybird": 65284,
+  "ruvnet/RuView": 89403,
+  "danielmiessler/LifeOS": 17979,
+  "firecrawl/firecrawl": 165171
 }
