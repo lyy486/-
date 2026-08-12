@@ -1,12 +1,12 @@
 {
-  "PrimeIntellect-ai/prime-agent": 13198,
-  "msitarzewski/agency-agents": 141904,
-  "addyosmani/agent-skills": 85807,
-  "semantica-agi/semantica": 4224,
-  "NanmiCoder/MediaCrawler": 61180,
-  "paperclipai/paperclip": 76585,
-  "LadybirdBrowser/ladybird": 65284,
-  "ruvnet/RuView": 89403,
-  "danielmiessler/LifeOS": 17979,
-  "firecrawl/firecrawl": 165171
+  "msitarzewski/agency-agents": 143462,
+  "semantica-agi/semantica": 4990,
+  "addyosmani/agent-skills": 86283,
+  "nvm-sh/nvm": 94505,
+  "ZhuLinsen/daily_stock_analysis": 62223,
+  "vitali87/code-graph-rag": 3873,
+  "anthropics/skills": 168210,
+  "3b1b/manim": 90247,
+  "HKUDS/DeepTutor": 34821,
+  "stablyai/orca": 42920
 }
