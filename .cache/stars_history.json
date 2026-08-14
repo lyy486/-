@@ -1,12 +1,12 @@
 {
-  "msitarzewski/agency-agents": 144658,
-  "stablyai/orca": 44051,
-  "semantica-agi/semantica": 5820,
-  "cathrynlavery/diagram-design": 11039,
-  "macro-inc/macro": 1958,
-  "shiyu-coder/Kronos": 36969,
-  "NanmiCoder/MediaCrawler": 62064,
-  "hugohe3/ppt-master": 45794,
-  "infiniflow/ragflow": 87603,
-  "paperclipai/paperclip": 77794
+  "cathrynlavery/diagram-design": 14989,
+  "semantica-agi/semantica": 6813,
+  "macro-inc/macro": 2660,
+  "anthropics/skills": 169106,
+  "cactus-compute/needle": 5027,
+  "altic-dev/FluidVoice": 9906,
+  "unslothai/unsloth": 71119,
+  "megadose/holehe": 12471,
+  "smicallef/spiderfoot": 20699,
+  "NVIDIA-NeMo/Switchyard": 1260
 }
