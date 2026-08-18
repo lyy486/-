@@ -1,9 +1,12 @@
 {
-  "public-apis/public-apis": 461880,
-  "cordiverse/cordis": 4837,
-  "unslothai/unsloth": 72650,
-  "cactus-compute/needle": 6632,
-  "basecamp/omarchy": 25447,
-  "OpenCut-app/OpenCut": 83955,
-  "ToolJet/ToolJet": 40082
+  "cordiverse/cordis": 5646,
+  "harry0703/MoneyPrinterTurbo": 106217,
+  "usestrix/strix": 54260,
+  "nautechsystems/nautilus_trader": 25965,
+  "akitaonrails/ai-memory": 2127,
+  "mukul975/Anthropic-Cybersecurity-Skills": 28482,
+  "AlexsJones/llmfit": 32331,
+  "santifer/career-ops": 64737,
+  "jundot/omlx": 19017,
+  "immich-app/immich": 111206
 }
