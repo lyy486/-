@@ -1,12 +1,12 @@
 {
-  "openai/codex": 115422,
-  "mattpocock/skills": 233963,
-  "AprilNEA/OpenLogi": 15013,
-  "affaan-m/ECC": 242584,
-  "freestylefly/awesome-gpt-image-2": 12933,
-  "basecamp/omarchy": 29189,
-  "block/buzz": 30146,
-  "apache/maka": 2377,
-  "Alishahryar1/free-claude-code": 48023,
-  "tinyhumansai/openhuman": 36793
+  "openai/codex": 117159,
+  "Alishahryar1/free-claude-code": 49056,
+  "AprilNEA/OpenLogi": 15915,
+  "apache/maka": 2942,
+  "MadsLorentzen/ai-job-search": 34131,
+  "multica-ai/andrej-karpathy-skills": 206574,
+  "makeplane/plane": 57968,
+  "NousResearch/hermes-agent": 235850,
+  "anthropics/claude-plugins-community": 1377,
+  "PostHog/posthog": 39012
 }
