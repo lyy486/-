@@ -1,12 +1,12 @@
 {
-  "openai/codex": 117159,
-  "Alishahryar1/free-claude-code": 49056,
-  "AprilNEA/OpenLogi": 15915,
-  "apache/maka": 2942,
-  "MadsLorentzen/ai-job-search": 34131,
-  "multica-ai/andrej-karpathy-skills": 206574,
-  "makeplane/plane": 57968,
-  "NousResearch/hermes-agent": 235850,
-  "anthropics/claude-plugins-community": 1377,
-  "PostHog/posthog": 39012
+  "MadsLorentzen/ai-job-search": 35381,
+  "apache/maka": 3373,
+  "anthropics/claude-plugins-community": 1793,
+  "freestylefly/awesome-gpt-image-2": 18234,
+  "TauricResearch/TradingAgents": 100302,
+  "AgriciDaniel/claude-obsidian": 12777,
+  "rohitg00/ai-engineering-from-scratch": 49051,
+  "tinyhumansai/openhuman": 37804,
+  "basecamp/omarchy": 31336,
+  "Shubhamsaboo/awesome-llm-apps": 134267
 }
