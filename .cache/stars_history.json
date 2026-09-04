@@ -1,12 +1,12 @@
 {
-  "fmtlib/fmt": 24429,
-  "google-research/timesfm": 30109,
-  "DietrichGebert/ponytail": 122053,
-  "debpalash/VoiceStudio": 15125,
-  "sngyai/Sequoia-X": 6245,
-  "ChromeDevTools/chrome-devtools-mcp": 50714,
-  "NousResearch/hermes-agent": 240258,
-  "superlinked/sie": 3113,
-  "pacifio/atlas": 2996,
-  "zyronon/TypeWords": 9420
+  "DietrichGebert/ponytail": 123755,
+  "fmtlib/fmt": 25198,
+  "NousResearch/hermes-agent": 240986,
+  "google-research/timesfm": 30763,
+  "mattpocock/skills": 247881,
+  "anthropics/skills": 173753,
+  "affaan-m/ECC": 247391,
+  "JuliusBrussee/caveman": 103192,
+  "blader/humanizer": 41710,
+  "averygan/reclip": 8483
 }
