@@ -1,12 +1,12 @@
 {
-  "DietrichGebert/ponytail": 123755,
-  "fmtlib/fmt": 25198,
-  "NousResearch/hermes-agent": 240986,
-  "google-research/timesfm": 30763,
-  "mattpocock/skills": 247881,
-  "anthropics/skills": 173753,
-  "affaan-m/ECC": 247391,
-  "JuliusBrussee/caveman": 103192,
-  "blader/humanizer": 41710,
-  "averygan/reclip": 8483
+  "mattpocock/skills": 250691,
+  "DietrichGebert/ponytail": 126430,
+  "affaan-m/ECC": 248663,
+  "blader/humanizer": 42854,
+  "NousResearch/hermes-agent": 241589,
+  "anthropics/skills": 174201,
+  "JuliusBrussee/caveman": 103630,
+  "fmtlib/fmt": 25492,
+  "magnitudedev/magnitude": 2603,
+  "bikini/exploitarium": 4553
 }
