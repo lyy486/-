@@ -1,12 +1,12 @@
 {
-  "alibaba/open-code-review": 32570,
-  "NationalSecurityAgency/ghidra": 77988,
-  "JustVugg/colibri": 35175,
-  "ever-co/ever-gauzy": 7403,
-  "cloudflare/security-audit-skill": 7797,
-  "abue-ammar/tinycast": 5736,
-  "jamiepine/voicebox": 54519,
-  "Lakr233/vphone-cli": 13440,
-  "anthropics/knowledge-work-plugins": 24355,
-  "ankitects/anki": 30953
+  "cloudflare/security-audit-skill": 11061,
+  "alibaba/open-code-review": 35371,
+  "NationalSecurityAgency/ghidra": 78630,
+  "abue-ammar/tinycast": 6226,
+  "anthropics/knowledge-work-plugins": 24629,
+  "addyosmani/agent-skills": 95979,
+  "Tencent/BrowserSkill": 4458,
+  "alphaXiv/OpenResearch": 5078,
+  "anthropics/claude-code": 145943,
+  "Tencent/WeKnora": 26513
 }
