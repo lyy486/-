@@ -1,12 +1,12 @@
 {
-  "cloudflare/security-audit-skill": 14138,
-  "alibaba/open-code-review": 36857,
-  "Tencent/BrowserSkill": 5428,
-  "addyosmani/agent-skills": 96500,
-  "anthropics/claude-code": 146387,
-  "anthropics/knowledge-work-plugins": 24929,
-  "affaan-m/ECC": 262195,
-  "TencentCloud/Octop": 4024,
-  "Fission-AI/OpenSpec": 69433,
-  "ankitects/anki": 31241
+  "cloudflare/security-audit-skill": 16746,
+  "addyosmani/agent-skills": 97175,
+  "anthropics/claude-code": 146791,
+  "trycua/cua": 24623,
+  "coder/coder": 15687,
+  "Open-Dev-Society/OpenStock": 16228,
+  "higgsfield-ai/higgsfield": 5033,
+  "docling-project/docling": 67199,
+  "cloudflare/quiche": 12076,
+  "asciimoo/hister": 5304
 }
