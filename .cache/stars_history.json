@@ -1,12 +1,12 @@
 {
-  "cloudflare/security-audit-skill": 16746,
-  "addyosmani/agent-skills": 97175,
-  "anthropics/claude-code": 146791,
-  "trycua/cua": 24623,
-  "coder/coder": 15687,
-  "Open-Dev-Society/OpenStock": 16228,
-  "higgsfield-ai/higgsfield": 5033,
-  "docling-project/docling": 67199,
-  "cloudflare/quiche": 12076,
-  "asciimoo/hister": 5304
+  "cloudflare/security-audit-skill": 18258,
+  "Open-Dev-Society/OpenStock": 17009,
+  "trycua/cua": 25296,
+  "anthropics/claude-code": 147248,
+  "higgsfield-ai/higgsfield": 5470,
+  "affaan-m/ECC": 263971,
+  "BuilderIO/agent-native": 5384,
+  "anthropics/financial-services": 35477,
+  "paperless-ngx/paperless-ngx": 45665,
+  "mihail911/modern-software-dev-assignments": 4632
 }
