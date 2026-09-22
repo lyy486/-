@@ -1,12 +1,12 @@
 {
-  "cloudflare/security-audit-skill": 18258,
-  "Open-Dev-Society/OpenStock": 17009,
-  "trycua/cua": 25296,
-  "anthropics/claude-code": 147248,
-  "higgsfield-ai/higgsfield": 5470,
-  "affaan-m/ECC": 263971,
-  "BuilderIO/agent-native": 5384,
-  "anthropics/financial-services": 35477,
-  "paperless-ngx/paperless-ngx": 45665,
-  "mihail911/modern-software-dev-assignments": 4632
+  "Open-Dev-Society/OpenStock": 17967,
+  "BuilderIO/agent-native": 6063,
+  "trycua/cua": 25793,
+  "anthropics/financial-services": 35921,
+  "akitaonrails/ai-memory": 7816,
+  "coder/coder": 16494,
+  "cloudflare/quiche": 12412,
+  "mvt-project/mvt": 13686,
+  "zhouxiaoka/autoclip": 8416,
+  "ruanyf/weekly": 104175
 }
