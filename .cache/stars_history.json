@@ -1,12 +1,10 @@
 {
-  "Open-Dev-Society/OpenStock": 17967,
-  "BuilderIO/agent-native": 6063,
-  "trycua/cua": 25793,
-  "anthropics/financial-services": 35921,
-  "akitaonrails/ai-memory": 7816,
-  "coder/coder": 16494,
-  "cloudflare/quiche": 12412,
-  "mvt-project/mvt": 13686,
-  "zhouxiaoka/autoclip": 8416,
-  "ruanyf/weekly": 104175
+  "anthropics/financial-services": 36497,
+  "mvt-project/mvt": 14212,
+  "agent-substrate/substrate": 3081,
+  "dream-num/univer": 15720,
+  "davila7/claude-code-templates": 31205,
+  "google/ax": 7907,
+  "superdesigndev/treg": 2315,
+  "browser-use/video-use": 26013
 }
