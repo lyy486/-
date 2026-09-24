@@ -1,10 +1,12 @@
 {
-  "anthropics/financial-services": 36497,
-  "mvt-project/mvt": 14212,
-  "agent-substrate/substrate": 3081,
-  "dream-num/univer": 15720,
-  "davila7/claude-code-templates": 31205,
-  "google/ax": 7907,
-  "superdesigndev/treg": 2315,
-  "browser-use/video-use": 26013
+  "google/ax": 9335,
+  "dream-num/univer": 16482,
+  "anthropics/financial-services": 37053,
+  "agent-substrate/substrate": 3573,
+  "davila7/claude-code-templates": 31580,
+  "BuilderIO/agent-native": 6635,
+  "obra/superpowers": 290803,
+  "Open-Dev-Society/OpenStock": 18942,
+  "strands-agents/harness-sdk": 7948,
+  "HKUDS/CLI-Anything": 50025
 }
