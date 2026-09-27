@@ -1,12 +1,12 @@
 {
-  "vectorize-io/hindsight": 30107,
-  "dream-num/univer": 18780,
-  "obra/superpowers": 291726,
-  "paperclipai/paperclip": 85345,
-  "anthropics/claude-plugins-official": 36978,
-  "mattpocock/skills": 269821,
-  "anthropics/skills": 178395,
-  "androoAGI/starnet": 533,
-  "derv82/wifit3": 1007,
-  "kelseyhightower/kubernetes-the-hard-way": 50155
+  "vectorize-io/hindsight": 33433,
+  "paperclipai/paperclip": 87817,
+  "dream-num/univer": 19677,
+  "NVIDIA/Model-Optimizer": 4812,
+  "tensorflow/tensorflow": 200493,
+  "rohitg00/ai-engineering-from-scratch": 58520,
+  "openbao/openbao": 8051,
+  "block/buzz": 34877,
+  "microsoft/vscode": 193103,
+  "zhaoxuya520/reverse-skill": 38111
 }
