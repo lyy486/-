@@ -1,12 +1,11 @@
 {
-  "vectorize-io/hindsight": 33433,
-  "paperclipai/paperclip": 87817,
-  "dream-num/univer": 19677,
-  "NVIDIA/Model-Optimizer": 4812,
-  "tensorflow/tensorflow": 200493,
-  "rohitg00/ai-engineering-from-scratch": 58520,
-  "openbao/openbao": 8051,
-  "block/buzz": 34877,
-  "microsoft/vscode": 193103,
-  "zhaoxuya520/reverse-skill": 38111
+  "vectorize-io/hindsight": 38242,
+  "paperclipai/paperclip": 90642,
+  "rohitg00/ai-engineering-from-scratch": 59660,
+  "dream-num/univer": 20758,
+  "debpalash/VoiceStudio": 40793,
+  "InfinityLoop1308/PipePipe": 6680,
+  "vercel-labs/scriptc": 5484,
+  "mvschwarz/openrig": 1158,
+  "willfaust/Madeira": 876
 }
