@@ -1,12 +1,12 @@
 {
-  "DietrichGebert/ponytail": 155178,
-  "Panniantong/Agent-Reach": 91154,
-  "pbakaus/impeccable": 76498,
-  "pingdotgg/t3code": 25286,
-  "tester-army/e2e": 3447,
-  "coreyhaines31/marketingskills": 53188,
-  "earthtojake/text-to-cad": 16986,
-  "getsentry/sentry": 45435,
-  "calesthio/OpenMontage": 63375,
-  "caddyserver/caddy": 76670
+  "tester-army/e2e": 5177,
+  "Panniantong/Agent-Reach": 92129,
+  "calesthio/OpenMontage": 64254,
+  "caddyserver/caddy": 77263,
+  "earthtojake/text-to-cad": 17567,
+  "pingdotgg/t3code": 25711,
+  "thedotmack/claude-mem": 96741,
+  "boykopovar/AnyPS5": 5146,
+  "DuarteSantos8/openGym": 4549,
+  "cloudflare/cloudflare-os": 11104
 }
