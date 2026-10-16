@@ -1,12 +1,12 @@
 {
-  "morluto/rea": 248992,
-  "debpalash/VoiceStudio": 66986,
-  "xtool-org/xtool": 11090,
-  "mksglu/context-mode": 29303,
-  "nvm-sh/nvm": 95494,
-  "K-Dense-AI/scientific-agent-skills": 49586,
-  "HKUDS/CLI-Anything": 52678,
-  "ifixai-ai/iFixAi": 27726,
-  "vxcontrol/pentagi": 29824,
-  "rust-lang/rust": 120144
+  "morluto/rea": 275638,
+  "debpalash/VoiceStudio": 69484,
+  "K-Dense-AI/scientific-agent-skills": 50713,
+  "mksglu/context-mode": 29885,
+  "anthropics/claude-plugins-official": 39353,
+  "JuliusBrussee/caveman": 112731,
+  "obra/superpowers": 300084,
+  "ruvnet/ruflo": 75250,
+  "NationalSecurityAgency/ghidra": 88983,
+  "affaan-m/ECC": 280577
 }
