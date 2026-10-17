@@ -1,12 +1,12 @@
 {
-  "morluto/rea": 275638,
-  "debpalash/VoiceStudio": 69484,
-  "K-Dense-AI/scientific-agent-skills": 50713,
-  "mksglu/context-mode": 29885,
-  "anthropics/claude-plugins-official": 39353,
-  "JuliusBrussee/caveman": 112731,
-  "obra/superpowers": 300084,
-  "ruvnet/ruflo": 75250,
-  "NationalSecurityAgency/ghidra": 88983,
-  "affaan-m/ECC": 280577
+  "debpalash/VoiceStudio": 71574,
+  "anthropics/claude-plugins-official": 40793,
+  "affaan-m/ECC": 281653,
+  "K-Dense-AI/scientific-agent-skills": 51659,
+  "obra/superpowers": 300767,
+  "ruvnet/ruflo": 75711,
+  "mksglu/context-mode": 30293,
+  "HKUDS/CLI-Anything": 53602,
+  "android/skills": 8142,
+  "cursor/plugins": 12039
 }
