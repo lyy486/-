@@ -1,12 +1,12 @@
 {
-  "debpalash/VoiceStudio": 73703,
-  "anthropics/claude-plugins-official": 41953,
-  "affaan-m/ECC": 282676,
-  "K-Dense-AI/scientific-agent-skills": 52372,
-  "HKUDS/CLI-Anything": 54166,
-  "android/skills": 8491,
-  "MadsLorentzen/ai-job-search": 50762,
-  "akitaonrails/ai-memory": 10032,
-  "stablyai/orca": 95611,
-  "anthropics/claude-code": 151908
+  "MadsLorentzen/ai-job-search": 54012,
+  "debpalash/VoiceStudio": 75949,
+  "stablyai/orca": 97031,
+  "anthropics/claude-plugins-official": 42847,
+  "akitaonrails/ai-memory": 10666,
+  "HKUDS/CLI-Anything": 54748,
+  "android/skills": 8872,
+  "anomalyco/opencode": 216832,
+  "cursor/plugins": 12829,
+  "ruvnet/ruflo": 76667
 }
