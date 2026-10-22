@@ -1,12 +1,12 @@
 {
-  "MadsLorentzen/ai-job-search": 61209,
-  "stablyai/orca": 100056,
-  "anomalyco/opencode": 219142,
-  "Comfy-Org/ComfyUI": 140962,
-  "ruvnet/ruflo": 77952,
-  "headroomlabs-ai/headroom": 76857,
-  "cloudflare/security-audit-skill": 34604,
-  "DietrichGebert/ponytail": 170126,
-  "Graphify-Labs/graphify": 130532,
-  "msitarzewski/agency-agents": 162522
+  "cloudflare/security-audit-skill": 37154,
+  "DietrichGebert/ponytail": 172027,
+  "stablyai/orca": 101653,
+  "Comfy-Org/ComfyUI": 141675,
+  "headroomlabs-ai/headroom": 77365,
+  "vllm-project/vllm": 94980,
+  "supabase/supabase": 113136,
+  "twentyhq/twenty": 59332,
+  "shiyu-coder/Kronos": 42940,
+  "akitaonrails/ai-memory": 12482
 }
