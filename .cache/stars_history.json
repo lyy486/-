@@ -1,12 +1,11 @@
 {
-  "cloudflare/security-audit-skill": 37154,
-  "DietrichGebert/ponytail": 172027,
-  "stablyai/orca": 101653,
-  "Comfy-Org/ComfyUI": 141675,
-  "headroomlabs-ai/headroom": 77365,
-  "vllm-project/vllm": 94980,
-  "supabase/supabase": 113136,
-  "twentyhq/twenty": 59332,
-  "shiyu-coder/Kronos": 42940,
-  "akitaonrails/ai-memory": 12482
+  "cloudflare/security-audit-skill": 39990,
+  "DietrichGebert/ponytail": 173821,
+  "supabase/supabase": 113575,
+  "php/php-src": 41280,
+  "anthropics/knowledge-work-plugins": 31736,
+  "Graphify-Labs/graphify": 133209,
+  "fastapi/fastapi": 103892,
+  "luongnv89/claude-howto": 43449,
+  "Meloong-Git/PCL": 8768
 }
