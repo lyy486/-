@@ -1,10 +1,12 @@
 {
-  "cloudflare/security-audit-skill": 42474,
-  "anthropics/knowledge-work-plugins": 32328,
-  "php/php-src": 41597,
-  "NVIDIA/OpenShell": 18917,
-  "Renhuai123/ziwei-doushu": 6999,
-  "SnailSploit/Claude-Red": 8608,
-  "OpenBMB/VoxCPM": 40348,
-  "nodejs/node": 122939
+  "cloudflare/security-audit-skill": 45050,
+  "NVIDIA/OpenShell": 19593,
+  "aws/agent-toolkit-for-aws": 3192,
+  "Nutlope/hallmark": 32397,
+  "luongnv89/claude-howto": 44691,
+  "pbakaus/impeccable": 86598,
+  "pollen-robotics/microduck": 11109,
+  "google-gemini/gemini-cli": 108195,
+  "jbiaojerry/ebook-treasure-chest": 22801,
+  "makecindy/cindy": 4220
 }
