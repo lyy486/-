@@ -1,12 +1,12 @@
 {
-  "cloudflare/security-audit-skill": 45050,
-  "NVIDIA/OpenShell": 19593,
-  "aws/agent-toolkit-for-aws": 3192,
-  "Nutlope/hallmark": 32397,
-  "luongnv89/claude-howto": 44691,
-  "pbakaus/impeccable": 86598,
-  "pollen-robotics/microduck": 11109,
-  "google-gemini/gemini-cli": 108195,
-  "jbiaojerry/ebook-treasure-chest": 22801,
-  "makecindy/cindy": 4220
+  "cloudflare/security-audit-skill": 47273,
+  "Nutlope/hallmark": 34323,
+  "pbakaus/impeccable": 87991,
+  "makecindy/cindy": 5200,
+  "pollen-robotics/microduck": 11854,
+  "debpalash/VoiceStudio": 87260,
+  "TauricResearch/TradingAgents": 114875,
+  "Renhuai123/ziwei-doushu": 7861,
+  "JetBrains/thinkrail": 2012,
+  "coollabsio/coolify": 64608
 }
