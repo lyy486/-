@@ -1,12 +1,12 @@
 {
-  "cloudflare/security-audit-skill": 47273,
-  "Nutlope/hallmark": 34323,
-  "pbakaus/impeccable": 87991,
-  "makecindy/cindy": 5200,
-  "pollen-robotics/microduck": 11854,
-  "debpalash/VoiceStudio": 87260,
-  "TauricResearch/TradingAgents": 114875,
-  "Renhuai123/ziwei-doushu": 7861,
-  "JetBrains/thinkrail": 2012,
-  "coollabsio/coolify": 64608
+  "Nutlope/hallmark": 36981,
+  "TauricResearch/TradingAgents": 116468,
+  "makecindy/cindy": 6783,
+  "pbakaus/impeccable": 89468,
+  "JetBrains/thinkrail": 3174,
+  "pollen-robotics/microduck": 12526,
+  "affaan-m/ECC": 290039,
+  "NVIDIA/SkillSpector": 22404,
+  "nightly-labs/openbot": 1649,
+  "Panniantong/Agent-Reach": 104008
 }
