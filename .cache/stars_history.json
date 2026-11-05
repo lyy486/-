@@ -1,12 +1,12 @@
 {
-  "vercel-labs/agent-desktop": 13427,
-  "thedotmack/claude-mem": 112208,
-  "JustVugg/colibri": 47415,
-  "max-sixty/worktrunk": 10658,
-  "mattpocock/skills": 311803,
-  "p-e-w/heretic": 39007,
-  "spotify/portal-ai-plugins": 3099,
-  "floci-io/floci": 29058,
-  "Usagi-org/ai-goofish-monitor": 16800,
-  "anomalyco/hex": 4762
+  "vercel-labs/agent-desktop": 15778,
+  "mattpocock/skills": 313769,
+  "thedotmack/claude-mem": 113102,
+  "floci-io/floci": 29841,
+  "max-sixty/worktrunk": 11207,
+  "NVIDIA/auto-ontology": 5832,
+  "github/spec-kit": 147512,
+  "The-PR-Agent/pr-agent": 14916,
+  "harry0703/MoneyPrinterTurbo": 139322,
+  "garrytan/gstack": 139515
 }
