@@ -1,12 +1,12 @@
 {
-  "NVIDIA/auto-ontology": 7915,
-  "mattpocock/skills": 315764,
-  "vercel-labs/agent-desktop": 17363,
-  "garrytan/gstack": 140169,
-  "max-sixty/worktrunk": 11657,
-  "Usagi-org/ai-goofish-monitor": 17953,
-  "D4Vinci/Scrapling": 98357,
-  "lz4/lz4": 12472,
-  "google/skills": 22528,
-  "vercel-labs/agent-browser": 46104
+  "NVIDIA/auto-ontology": 9332,
+  "google/skills": 22952,
+  "zed-industries/zed": 93832,
+  "rails/rails": 59058,
+  "mpv-player/mpv": 37934,
+  "rust-lang/rust": 121520,
+  "react/react": 252307,
+  "angular/angular": 101422,
+  "symfony/symfony": 31478,
+  "prometheus/prometheus": 67241
 }
