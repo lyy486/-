@@ -1,12 +1,12 @@
 {
-  "NVIDIA/auto-ontology": 9332,
-  "google/skills": 22952,
-  "zed-industries/zed": 93832,
-  "rails/rails": 59058,
-  "mpv-player/mpv": 37934,
-  "rust-lang/rust": 121520,
-  "react/react": 252307,
-  "angular/angular": 101422,
-  "symfony/symfony": 31478,
-  "prometheus/prometheus": 67241
+  "google/skills": 23531,
+  "prometheus/prometheus": 67491,
+  "vercel-labs/agent-browser": 47023,
+  "cloudflare/security-audit-skill": 66051,
+  "mattpocock/skills": 317943,
+  "anthropics/skills": 188942,
+  "meta/astryx": 14769,
+  "sherlock-project/sherlock": 101107,
+  "milind-soni/OpenMausBot": 17318,
+  "astral-sh/ruff": 51031
 }
