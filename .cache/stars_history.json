@@ -1,12 +1,12 @@
 {
-  "google/skills": 23531,
-  "prometheus/prometheus": 67491,
-  "vercel-labs/agent-browser": 47023,
-  "cloudflare/security-audit-skill": 66051,
-  "mattpocock/skills": 317943,
-  "anthropics/skills": 188942,
-  "meta/astryx": 14769,
-  "sherlock-project/sherlock": 101107,
-  "milind-soni/OpenMausBot": 17318,
-  "astral-sh/ruff": 51031
+  "sherlock-project/sherlock": 107835,
+  "meta/astryx": 20958,
+  "anthropics/skills": 191473,
+  "vercel-labs/agent-browser": 48742,
+  "google-deepmind/mujoco": 17077,
+  "anthropics/claude-quickstarts": 20175,
+  "garrytan/gbrain": 32327,
+  "ruvnet/RuView": 103696,
+  "ZhuLinsen/daily_stock_analysis": 69285,
+  "homeassistant-ai/ha-mcp": 6204
 }
