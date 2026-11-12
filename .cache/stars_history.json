@@ -1,12 +1,12 @@
 {
-  "meta/astryx": 23656,
-  "sherlock-project/sherlock": 109436,
-  "anthropics/skills": 192627,
-  "vercel-labs/agent-browser": 49448,
-  "homeassistant-ai/ha-mcp": 6830,
-  "anthropics/claude-quickstarts": 20636,
-  "google-deepmind/mujoco": 17498,
-  "addyosmani/agent-skills": 115387,
-  "we-promise/sure": 12259,
-  "tokio-rs/topcoat": 6975
+  "meta/astryx": 25599,
+  "we-promise/sure": 13239,
+  "addyosmani/agent-skills": 116180,
+  "homeassistant-ai/ha-mcp": 7560,
+  "vercel-labs/agent-browser": 50064,
+  "ZhuLinsen/daily_stock_analysis": 70760,
+  "GoogleChrome/modern-web-guidance-src": 2035,
+  "shadcn/improve": 11199,
+  "openai/codex-security": 11951,
+  "TheAlgorithms/Java": 67158
 }
