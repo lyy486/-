@@ -1,12 +1,12 @@
 {
-  "meta/astryx": 25599,
-  "we-promise/sure": 13239,
-  "addyosmani/agent-skills": 116180,
-  "homeassistant-ai/ha-mcp": 7560,
-  "vercel-labs/agent-browser": 50064,
-  "ZhuLinsen/daily_stock_analysis": 70760,
-  "GoogleChrome/modern-web-guidance-src": 2035,
-  "shadcn/improve": 11199,
-  "openai/codex-security": 11951,
-  "TheAlgorithms/Java": 67158
+  "GoogleChrome/modern-web-guidance-src": 3669,
+  "meta/astryx": 26907,
+  "we-promise/sure": 14192,
+  "openai/codex-security": 12670,
+  "addyosmani/agent-skills": 116862,
+  "nvm-sh/nvm": 96065,
+  "pookjw/HermesEnabler": 1653,
+  "QwenLM/qwen-code": 29991,
+  "ashhart/TensorFold": 2021,
+  "nodejs/node": 123657
 }
