@@ -1,12 +1,12 @@
 {
-  "GoogleChrome/modern-web-guidance-src": 5095,
-  "we-promise/sure": 14890,
-  "openai/codex-security": 13276,
-  "alibaba/open-code-review": 50854,
-  "ZhuLinsen/daily_stock_analysis": 71879,
-  "backnotprop/plannotator": 10569,
-  "louislam/uptime-kuma": 93967,
-  "block/buzz": 37362,
-  "tradermonty/claude-trading-skills": 4314,
-  "tailscale/tailcat": 9577
+  "GoogleChrome/modern-web-guidance-src": 6319,
+  "backnotprop/plannotator": 11372,
+  "alibaba/open-code-review": 51579,
+  "tradermonty/claude-trading-skills": 5012,
+  "ChromeDevTools/chrome-devtools-mcp": 56472,
+  "QwenLM/qwen-code": 30425,
+  "dream-num/univer": 25102,
+  "ag-ui-protocol/ag-ui": 17470,
+  "ashhart/TensorFold": 2207,
+  "JuliusBrussee/caveman": 120188
 }
