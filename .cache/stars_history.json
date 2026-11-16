@@ -1,12 +1,12 @@
 {
-  "GoogleChrome/modern-web-guidance-src": 6319,
-  "backnotprop/plannotator": 11372,
-  "alibaba/open-code-review": 51579,
-  "tradermonty/claude-trading-skills": 5012,
-  "ChromeDevTools/chrome-devtools-mcp": 56472,
-  "QwenLM/qwen-code": 30425,
-  "dream-num/univer": 25102,
-  "ag-ui-protocol/ag-ui": 17470,
-  "ashhart/TensorFold": 2207,
-  "JuliusBrussee/caveman": 120188
+  "dream-num/univer": 26633,
+  "GoogleChrome/modern-web-guidance-src": 7500,
+  "alibaba/open-code-review": 52435,
+  "ChromeDevTools/chrome-devtools-mcp": 57240,
+  "ag-ui-protocol/ag-ui": 18171,
+  "backnotprop/plannotator": 12068,
+  "google-labs-code/stitch-skills": 9473,
+  "Tencent/LoopForge": 1876,
+  "ggml-org/ggml": 16006,
+  "elementalsouls/Claude-BugHunter": 6778
 }
