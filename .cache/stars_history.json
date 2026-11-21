@@ -1,12 +1,12 @@
 {
-  "HKUDS/CLI-Anything": 60813,
-  "mvanhorn/last30days-skill": 71027,
-  "cursor/plugins": 17648,
-  "elementalsouls/Claude-BugHunter": 13032,
-  "obra/superpowers": 322333,
-  "jingyaogong/minimind": 67247,
-  "firecrawl/firecrawl": 204571,
-  "nginx/nginx": 32423,
-  "openvinotoolkit/openvino": 11629,
-  "cathrynlavery/diagram-design": 68868
+  "elementalsouls/Claude-BugHunter": 14773,
+  "firecrawl/firecrawl": 205543,
+  "HKUDS/CLI-Anything": 61590,
+  "obra/superpowers": 323017,
+  "jingyaogong/minimind": 67840,
+  "cathrynlavery/diagram-design": 69457,
+  "mvanhorn/last30days-skill": 71599,
+  "cursor/plugins": 17925,
+  "openvinotoolkit/openvino": 11837,
+  "nginx/nginx": 32625
 }
